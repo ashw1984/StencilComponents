@@ -1,0 +1,36 @@
+{
+  "name": "@ashw1984/style-guide-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/style-guide-components.js",
+  "browser": "dist/style-guide-components.js",
+  "types": "dist/types/components.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "start": "serve .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashw1984/StencilComponents.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashw1984/StencilComponents/issues"
+  },
+  "homepage": "https://github.com/ashw1984/StencilComponents#readme",
+  "dependencies": {
+    "@stencil/core": "^0.7.18"
+  },
+  "devDependencies": {
+    "@stencil/utils": "0.0.4",
+    "serve": "^6.5.3"
+  }
+}
