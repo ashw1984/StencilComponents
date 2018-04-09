@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "build": "stencil build",
-    "start": "serve .",
+    "start": "npm run build && serve .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "npm run build"
   },
